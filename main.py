@@ -166,7 +166,29 @@ elif opcion == 3:
 else:
     break 
 
-alumnos[2] = nombre
+alumnos = ["Carlos", "Manuel"]
+numero = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+print(alumnos)
+
+for i in range(5):
+    print(i)
+
+#rango si le paso 4, me genera = 0,1,2,3
+#10 = 0,1,2,3,4,5,6,7,8,9
+
+numero = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+
+ordenados = sorted(numeros)
+print(ordenados)
+
+#SLICES DONDE CORTO
+texto= "esto es en texto"
+print (texto[8:10])
+
+print(ordenados[3:6])
+
+print(ordenados).count("a"))
+    
 
 
 
